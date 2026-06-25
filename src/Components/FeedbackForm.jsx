@@ -69,30 +69,35 @@ const FeedbackForm = () => {
             type="radio"
             name="rating"
             value="1"
+            checked={formData.rating === "1"}
             onChange={handleChange}
           /> 1</p>
           <p><input
             type="radio"
             name="rating"
             value="2"
+            checked={formData.rating === "2"}
             onChange={handleChange}
           /> 2</p>
           <p><input
             type="radio"
             name="rating"
             value="3"
+            checked={formData.rating === "3"}
             onChange={handleChange}
           /> 3</p>
           <p><input
             type="radio"
             name="rating"
             value="4"
+            checked={formData.rating === "4"}
             onChange={handleChange}
           /> 4</p>
           <p><input
             type="radio"
             name="rating"
             value="5"
+            checked={formData.rating === "5"}
             onChange={handleChange}
           /> 5</p>
         </div>
